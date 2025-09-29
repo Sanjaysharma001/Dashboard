@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Dashboard/"> {/* <--- important for GitHub Pages */}
+    <BrowserRouter> {/* <-- NO basename here */}
       <App />
     </BrowserRouter>
   </React.StrictMode>
